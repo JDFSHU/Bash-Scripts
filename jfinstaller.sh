@@ -33,7 +33,7 @@ echo -e '\e[0;32m   \____/  |_|      |_| |_| |_| |___/  \__|  \__,_| |_| |_|  \_
 echo -e "\n"
 }
 
-sleep_function(){
+sleep_function() {
     sleep 1.5
     clear
 }
