@@ -100,12 +100,12 @@ do # extra echo statements can be added here for additional package installation
         5) case_function_one_arg $itree;;
         6) case_function_one_arg $iranger;;
         7) case_function_one_arg $ihtop;;
-        8) exit_loop=1;;
+        8) exit_loop=1;; # if user chooses this option, sets the exit_loop var to 1 causing the while loop to evaluate as false and close the loop
         *)
         echo -e "\nIncorrect Input\n"
         sleep_function
-    esac
-done
+    esac # closing cases
+done # end of the while loop
 
 clear # clears terminal
 echo -e "\nThank you for using JFinstaller\n"
