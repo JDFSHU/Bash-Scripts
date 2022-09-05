@@ -34,16 +34,3 @@ fi
 
 # || = OR
 # && = AND
-
-
-if command -v $ipython3
-        then
-            echo -e "\n'$ipython3' already installed\n"
-        else
-            echo -e "\nInstalling '$ipython3'\n"
-            sudo apt-get install -y $ipython3 >> $install_log 2>> $error_log
-            error_function
-            echo -e "\n'$ipython3' installation complete\n"
-            echo -e "Installed '$ipython3' on $(date).\n" >> $install_log
-        fi
-        ;;
