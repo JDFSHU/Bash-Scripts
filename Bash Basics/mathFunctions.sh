@@ -14,3 +14,13 @@ mynum1=100 # creation of variables containing numbers
 mynum2=200
 expr $mynum1 + $mynum2 # adding two variables 
 expr $mynum1 + $mnnum2 + 50 # adding variables with numbers
+
+# when reading input from a user
+
+read x
+read y
+
+echo $((x+y)) # you can simply echo the output of x+y, x-y, x*y, x/y 
+echo $((x-y))
+echo $((x*y))
+echo $((x/y))

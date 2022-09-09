@@ -18,7 +18,7 @@ then
     sudo apt update -y >>$logfile 2>>$errorlog && sudo apt dist-upgrade -y >>$logfile 2>>$errorlog
     error_function # called function to echo the error message
     echo "Updated on $(date)" >> $logfile
-    echo "" >> $logfile 2>>$error_log
+    echo "" >> $logfile >>$errorlog
 fi
 
 
