@@ -15,7 +15,7 @@ ihtop=htop
 command_pip=pip3
 command_net=ifconfig
 
-# Log files saved to /var/log
+# Log files saved to /var/log change location and name of log files by changing the following variables
 error_log=/var/log/jfinstaller_errors.log
 install_log=/var/log/jfinstaller.log
 
