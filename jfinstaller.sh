@@ -91,7 +91,7 @@ do # extra echo statements can be added here for additional package installation
     echo "8 - Exit"
 
     read choice; # reading input from the user
-    case $choice in # case statements to install packages or advice already installed
+    case $choice in # case statements to install packages or state whether already installed
         
         1) case_function_one_arg $ipython;; # calling the one argument case function
         2) case_function_two_arg $command_pip $ipip;; # two argument case function, use this if the command checked for isn't the same as the package name IE pip3 vs python3-pip
